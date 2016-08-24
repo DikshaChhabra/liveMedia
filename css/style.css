@@ -1,0 +1,188 @@
+@font-face{
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSans-Light_1.ttf');
+}
+@font-face{
+	font-family: 'OpenSansRegular';
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+	font-family: 'OpenSansBold';
+	src: url('../fonts/OpenSans-Bold_1.ttf');
+}
+@font-face{
+	font-family: 'OswaldBold';
+	src: url('../fonts/Oswald-Bold.ttf');
+}
+@font-face{
+	font-family: 'OswaldRegular';
+	src: url('../fonts/Oswald-Regular.ttf');
+}
+.navigation {
+    background-color: white !important;
+}
+.our_services{
+	height: 320px;
+	background-color: #C00226;
+	margin-top: -20px;
+}
+.service_head{
+	font-family: 'OswaldBold';
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+.text_white{
+	color: white;
+}
+.advertiser_head{
+	background-color: #C00226;  
+}
+.network_image{
+	/*overflow: hidden;*/
+	background: linear-gradient( rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.62) ), url('../images/network.png');
+	height: 400px;
+	background-color: black;
+}
+.enquiry{
+	height: 650px;
+}
+.font_name{
+	font-family: 'monospace';
+}
+.navbar-nav>li>a {
+	padding-top: 30px;
+};
+.navigation_item{
+	font-family: 'OpenSansLight';
+}
+.navigation_item:hover{
+	background-color: #C00226 !important;
+	color: white !important;
+}
+.number{
+	color: #57574B;
+    position: absolute;
+    margin-top: -556px;
+    margin-left: 659px;
+    font-family: 'OpenSansBold';
+    font-size: 50px;
+}
+.media_screen{
+	font-family: 'OpenSansLight';
+	position: absolute;
+    margin-top: -504px;
+    margin-left: 656px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #C23949;
+}
+.brief{
+	font-family: 'OpenSansRegular';
+	color: #444540;
+	
+}
+.first_line{
+	margin-top: -445px;
+    position: absolute;
+    margin-left: 656px;
+    font-size: 18px;
+}
+.second_line{
+	margin-top: -422px;
+    position: absolute;
+    margin-left: 656px;
+    font-size: 18px;
+}
+.third_line{
+	margin-top: -399px;
+    position: absolute;
+    margin-left: 656px;
+    font-size: 18px;
+}
+.know_more{
+	margin-top: -355px;
+    position: absolute;
+    margin-left: 656px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.describe{
+	font-family: 'OpenSansRegular';
+	color: white;
+	position: absolute;
+	margin-top: -120px;
+	font-size: 18px;
+
+}
+.big_font{
+	font-family: 'OpenSansBold';
+	font-size: 25px;
+	font-weight: bold;
+}
+.network_head{
+	font-family: 'OswaldBold';
+	position: absolute;
+    margin-top: -359px;
+    color: white;
+    font-size: 49px;
+    font-weight: bold;
+}
+.network_images1{
+	position: absolute;
+    margin-top: -350px;
+    color: white;
+}
+
+.network_images2{
+	position: absolute;
+	margin-top: -200px;
+	color: white;
+}
+.advertiser_text{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+}
+.service_style{
+	font-family: 'OpenSansLight';
+	text-align: center;
+	color: white;
+
+}
+.fields{
+	color: white;
+	margin-top: -280px;
+	font-size: 20px;
+	font-family: 'OpenSansRegular';
+	margin-left: -25px;
+}
+.other_fields{
+	color: white;
+	margin-top: -133px;
+	font-size: 20px;
+	font-family: 'OpenSansRegular';
+	margin-left: -25px;
+}
+/*.shadow_on_image{
+	height: 430px;
+	background-color: black;
+}*/
+.advertiser_head{
+	font-family: 'OswaldRegular';
+	color: white;
+	 padding: 12px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -2px;
+}
+.our_advertiser{
+	height: 60px;
+	background-color: #C10C2F;
+}
+.change_color_hover:hover{
+	border-radius: 5px solid #C10C2F;
+}
