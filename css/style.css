@@ -49,9 +49,6 @@
 .enquiry{
 	height: 650px;
 }
-.font_name{
-	font-family: 'monospace';
-}
 .navbar-nav>li>a {
 	padding-top: 30px;
 };
@@ -138,7 +135,7 @@
 
 .network_images2{
 	position: absolute;
-	margin-top: -200px;
+	margin-top: -160px;
 	color: white;
 }
 .advertiser_text{
@@ -162,7 +159,7 @@
 }
 .other_fields{
 	color: white;
-	margin-top: -133px;
+	margin-top: -94px;
 	font-size: 20px;
 	font-family: 'OpenSansRegular';
 	margin-left: -25px;
@@ -185,4 +182,35 @@
 }
 .change_color_hover:hover{
 	border-radius: 5px solid #C10C2F;
+}
+.footer_item{
+	display: inline-flex;
+	list-style-type: none;
+	margin-right: 10px;
+	font-size: 10px;
+	text-decoration: none !important;
+	color: #828285 !important;
+	font-family: 'OpenSansRegular';
+}
+.footer_items{
+	text-align: center;
+}
+.footer_item:hover{
+	text-decoration: none;
+}
+.footer{
+	margin-top: 65px;
+}
+#enquiry_form{
+	position: absolute;
+    margin-top: -490px;
+    background-color: white;
+    margin-left: 300px;
+    padding: 30px;
+}
+.form-control{
+	background-color: #F1F1F1;
+}
+.btn{
+	color: #C10C2F;
 }

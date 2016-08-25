@@ -101,7 +101,7 @@
                         <p class="network_head">Networks</p>
                     </div>
                     <div class="col-md-8">
-                        <div class="col-md-3 change_color_hover">
+                        <div class="col-md-3">
                             <i class="fa fa-male fa-4x network_images1 center block" aria-hidden="true"></i>
                             <p class="fields">Corporates</p>
                         </div>
@@ -190,8 +190,42 @@
     <!-- enquiry -->
     <div class="enquiry">
         <img src="images/enquiry.png" class="img-responsive">
+        <form  class="form-horizontal" id="enquiry_form">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="E-mail" name="Email" required/>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <textarea class="form-control" type="text" placeholder="Address" name="Feedback"required></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <textarea class="form-control" type="text" placeholder="Message" name="suggestion" required/></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <input class="btn" id="submit" type="submit" name="submit">
+                </div>
+            </div>
+        </form> 
     </div>
     <!-- enquiry -->
+    <div class="footer">
+        <div class="col-sm-12 np footer_items">
+            <ul>
+                <li class="footer_item">Home</li>
+                <li class="footer_item">About Us</li>
+                <li class="footer_item">Our Advertiser`s</li>
+                <li class="footer_item">Network`s</li>
+                <li class="footer_item">Contact</li>
+                <li class="footer_item">All Right`s Reserved</li>
+            </ul>
+        </div>
+    </div>
     <script src="js/jquery.js"></script>
     <!-- Jquery -->
     <script src="js/bootstrap.min.js"></script>
@@ -205,11 +239,12 @@
             controlNav: false,
             animationLoop: false,
             slideshow: true,
-            itemWidth: 210,
+            itemWidth: 223,
             itemMargin: 5,
-            asNavFor: '#slider'
+            controlNav: true,
+            directionNav: false
         });
-        
+
     });
     </script>
 </body>
