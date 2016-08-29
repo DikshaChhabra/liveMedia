@@ -36,11 +36,12 @@
                     <div class="col-sm-9 np">
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav" style="float:right">
-                                <li><a href="#" class="font_name navigation_item">HOME</a></li>
-                                <li><a href="#" class="font_name navigation_item">ABOUT US</a></li>
-                                <li><a href="#" class="font_name navigation_item">OUR ADVERTISER</a></li>
-                                <li><a href="#" class="font_name navigation_item">NETWORKS</a></li>
-                                <li><a href="#" class="font_name navigation_item">CONTACT</a></li>
+                                <li><a href="#main_image" class="font_name navigation_item">HOME</a></li>
+                                <!-- <li><a href="#" class="font_name navigation_item">ABOUT US</a></li> -->
+                                <li><a href="#our_services" class="font_name navigation_item">OUR SERVICES</a></li>
+                                <li><a href="#our_advertisers" class="font_name navigation_item">OUR ADVERTISER</a></li>
+                                <li><a href="#networks" class="font_name navigation_item">NETWORKS</a></li>
+                                <li><a href="#contact" class="font_name navigation_item">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -51,7 +52,7 @@
     </header>
     <!-- /header -->
     <!-- carousel -->
-    <div  style="margin-top: 65px">
+    <div  style="margin-top: 65px" id="main_image">
         <div class="main_image" ></div>
         <div class="container">
             <div class="row">
@@ -85,7 +86,7 @@
     </div>
     <!-- carousel -->
     <!-- our services -->
-    <div class="our_services">
+    <div class="our_services" id="our_services">
         <p class="service_head">Our Services</p>
         <div class="container">
             <div class="row">
@@ -106,7 +107,7 @@
     </div>
     <!-- our services -->
     <!-- networks -->
-    <div class="networks">
+    <div class="networks" id="networks">
         <div class="network_image">
         </div>
         <!-- <img src="images/network.png" class="img-responsive network_image"> -->
@@ -161,7 +162,7 @@
     </div>
     <!-- network -->
     <!-- our advertisers -->
-    <div class="our_advertisers">
+    <div class="our_advertisers" id="our_advertisers">
         <div class="advertiser_head">
             Our Advertisers
         </div>
@@ -208,37 +209,43 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.532651428928!2d77.24660249388798!3d28.55376387260685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c90908d033%3A0x31345f9514b3d506!2sRS+Live+Media+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1472452066751" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <!-- enquiry -->
-    <div class="enquiry">
+    <div class="enquiry" id="contact">
         <div class="enquiry_image">
             <div class="enquiry_bar">
                 <p class="enquiry_text">Enquiry</p>
             </div>
+            <div class="container">
             <p class="enquiry_choice">I want to:</p>
-            <div class="enquiry_options">
-                <li class="enquiry_inline">
+            </div>
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12 enquiry_options">
+                <li class="col-md-3 enquiry_inline">
                     <div class="radio">
                         <label>
                             <input type="radio" name="optradio">Install Livemedia Screens</label>
                     </div>
                 </li>
-                <li class="enquiry_inline">
+                <li class="col-md-3 enquiry_inline">
                     <div class="radio">
                         <label>
                             <input type="radio" name="optradio">Advertise on Livemedia</label>
                     </div>
                 </li>
-                <li class="enquiry_inline">
+                <li class="col-md-3 enquiry_inline">
                     <div class="radio">
                         <label>
                             <input type="radio" name="optradio">Contribute Content</label>
                     </div>
                 </li>
-                <li class="enquiry_inline">
+                <li class="col-md-3 enquiry_inline">
                     <div class="radio">
                         <label>
                             <input type="radio" name="optradio">General Feedback</label>
                     </div>
                 </li>
+            </div>
+            </div>
             </div>
             <form class="form-horizontal" id="enquiry_form">
                 <div class="container">
@@ -280,12 +287,13 @@
     <div class="footer">
         <div class="col-sm-12 np footer_items">
             <ul>
-                <li class="footer_item">Home</li>
-                <li class="footer_item">About Us</li>
-                <li class="footer_item">Our Advertiser`s</li>
-                <li class="footer_item">Network`s</li>
-                <li class="footer_item">Contact</li>
-                <li class="footer_item">All Right`s Reserved</li>
+                <a href="#main_image"><li class="footer_item">Home</li></a>
+                <!-- <li class="footer_item">About Us</li> -->
+                <a href="#our_services"><li class="footer_item" >Our Services</li></a>
+                <a href="#our_advertisers"><li class="footer_item">Our Advertiser`s</li></a>
+                <a href="#networks"><li class="footer_item">Network`s</li></a>
+                <a href="#contact"><li class="footer_item">Contact</li></a>
+                <a href="#"><li class="footer_item">All Right`s Reserved</li></a>
             </ul>
         </div>
     </div>

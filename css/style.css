@@ -36,7 +36,7 @@
 .main_image{
 	background: url('../images/main.png') no-repeat;
 	background-size: cover;
-	height: 650px;
+	height: 635px;
 }
 .text_white{
 	color: white;
@@ -191,6 +191,9 @@
 	color: #828285 !important;
 	font-family: 'OpenSansRegular';
 }
+.footer_item:hover{
+	text-decoration: none;
+}
 .footer_items{
 	text-align: center;
 }
@@ -203,7 +206,7 @@
 #enquiry_form{
 	position: absolute;
     padding: 30px;
-    margin-top: 230px;
+    margin-top: 20px;
 }
 .btn{
 	color: #C10C2F;
@@ -217,7 +220,6 @@
 }
 .enquiry_fields{
 	background-color: transparent;
-	color: white;
 }
 .enquiry_fields:focus{
 	box-shadow:none ;
@@ -228,13 +230,10 @@
     position: absolute;
     color: white;
     font-size: 30px;
-    margin-left: 112px;
     font-family: 'OpenSansRegular';
     margin-top: 90px;
 }
 .enquiry_options{
-	position: absolute;
-    margin-left: 106px;
     color: white;
     margin-top: 160px;
 }
@@ -253,7 +252,7 @@
 }
 .enquiry_inline{
 	display: inline-flex;
-    margin-right: 137px;
+  
 
 }
 .enquiry_image{
