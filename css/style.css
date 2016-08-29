@@ -217,6 +217,7 @@
 }
 .enquiry_fields{
 	background-color: transparent;
+	color: white;
 }
 .enquiry_fields:focus{
 	box-shadow:none ;
