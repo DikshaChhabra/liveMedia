@@ -51,14 +51,30 @@
     </header>
     <!-- /header -->
     <!-- carousel -->
-    <div id="myCarousel" class="carousel slide">
-        <img src="images/main.png" class="img-responsive" style="margin-top: 65px">
-        <p class="number">5000+</p>
-        <p class="media_screen">Media Screens</p>
-        <p class="brief first_line">audio visual Captive Audience Network</p>
-        <p class="brief second_line">of LCD TVs, strategically placed in high</p>
-        <p class="brief third_line">traffic areas where</p>
-        <a href="#" class="brief know_more">Know More</a>
+    <div  style="margin-top: 65px">
+        <div class="main_image" ></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-6">
+                    <p class="number">5000+</p>
+                </div>
+                <div class="col-md-4 col-md-offset-6">
+                    <p class="media_screen">Media Screens</p>
+                </div>
+                <div class="col-md-4 col-md-offset-6">
+                    <p class="brief first_line">audio visual Captive Audience Network</p>
+                </div>
+                <div class="col-md-4 col-md-offset-6">
+                    <p class="brief second_line">of LCD TVs, strategically placed in high</p>
+                </div>
+                <div class="col-md-4 col-md-offset-6">
+                    <p class="brief third_line">traffic areas where</p>
+                </div>
+                <div class="col-md-4 col-md-offset-6">
+                    <a href="#" class="brief know_more">Know More</a>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="describe"><span class="big_font">LIVEMEDIA</span> is an audio visual Captive Audience Network of LCD TVs, strategically placed in high traffic areas where people of identifiable demographics congregate. The TVs attract full viewer attention through targeted and entertaining Content</div>
@@ -190,68 +206,71 @@
     <!-- enquiry -->
     <div class="enquiry">
         <div class="enquiry_image">
-        <div class="enquiry_bar"><p class="enquiry_text">Enquiry</p></div>
-        <p class="enquiry_choice">I want to:</p>
-        <div class="enquiry_options">
-            <li class="enquiry_inline"><div class="radio">
-                <label>
-                    <input type="radio" name="optradio">Install Livemedia Screens</label>
+            <div class="enquiry_bar">
+                <p class="enquiry_text">Enquiry</p>
             </div>
-           </li>
-           <li class="enquiry_inline"> 
-            <div class="radio">
-                <label>
-                    <input type="radio" name="optradio">Advertise on Livemedia</label>
+            <p class="enquiry_choice">I want to:</p>
+            <div class="enquiry_options">
+                <li class="enquiry_inline">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optradio">Install Livemedia Screens</label>
+                    </div>
+                </li>
+                <li class="enquiry_inline">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optradio">Advertise on Livemedia</label>
+                    </div>
+                </li>
+                <li class="enquiry_inline">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optradio">Contribute Content</label>
+                    </div>
+                </li>
+                <li class="enquiry_inline">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optradio">General Feedback</label>
+                    </div>
+                </li>
             </div>
-            </li>
-            <li class="enquiry_inline">
-            <div class="radio">
-                <label>
-                    <input type="radio" name="optradio">Contribute Content</label>
-            </div>
-            </li>
-            <li class="enquiry_inline">
-            <div class="radio">
-                <label>
-                    <input type="radio" name="optradio">General Feedback</label>
-            </div>
-            </li>
+            <form class="form-horizontal" id="enquiry_form">
+                <div class="container">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <input class="form-control enquiry_fields" type="Text" placeholder="Name" name="Name" required/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <input class="form-control enquiry_fields" type="email" placeholder="E-mail" name="Email" required/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <textarea class="form-control enquiry_fields" type="text" placeholder="Address" name="Feedback" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <input class="form-control enquiry_fields" type="phone" placeholder="Phone Number" name="phoneNumber" required/>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="form-group">
+                            <textarea class="form-control enquiry_fields" type="text" placeholder="Message" name="suggestion" required/></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="form-group enquiry_fields">
+                            <input class="btn" id="submit" type="submit" name="submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-        <form class="form-horizontal" id="enquiry_form">
-            <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="form-group">
-                    <input class="form-control enquiry_fields" type="Text" placeholder="Name" name="Name" required/>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="form-group">
-                    <input class="form-control enquiry_fields" type="email" placeholder="E-mail" name="Email" required/>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="form-group">
-                    <textarea class="form-control enquiry_fields" type="text" placeholder="Address" name="Feedback" required></textarea>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="form-group">
-                    <input class="form-control enquiry_fields" type="phone" placeholder="Phone Number" name="phoneNumber" required/>
-                </div>
-            </div>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="form-group">
-                    <textarea class="form-control enquiry_fields" type="text" placeholder="Message" name="suggestion" required/></textarea>
-                </div>
-            </div>
-            <div class="col-md-4 col-md-offset-4">
-                <div class="form-group enquiry_fields">
-                    <input class="btn" id="submit" type="submit" name="submit">
-                </div>
-            </div>
-            </div>
-        </form>
-    </div>
     </div>
     <!-- enquiry -->
     <div class="footer">
