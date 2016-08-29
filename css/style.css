@@ -187,7 +187,7 @@
 	display: inline-flex;
 	list-style-type: none;
 	margin-right: 10px;
-	font-size: 10px;
+	font-size: 13px;
 	text-decoration: none !important;
 	color: #828285 !important;
 	font-family: 'OpenSansRegular';
@@ -199,18 +199,96 @@
 	text-decoration: none;
 }
 .footer{
-	margin-top: 65px;
+	margin-top: 15px;
 }
 #enquiry_form{
 	position: absolute;
-    margin-top: -490px;
-    background-color: white;
-    margin-left: 300px;
     padding: 30px;
-}
-.form-control{
-	background-color: #F1F1F1;
+    margin-top: 230px;
 }
 .btn{
 	color: #C10C2F;
+	width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.btn:hover{
+	color: #C10C2F;
+}
+.enquiry_fields{
+	background-color: transparent;
+}
+.enquiry_fields:focus{
+	box-shadow:none ;
+	color: white;
+	border-color: #C10C2F;
+}
+.enquiry_choice{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-left: 112px;
+    font-family: 'OpenSansRegular';
+    margin-top: 90px;
+}
+.enquiry_options{
+	position: absolute;
+    margin-left: 106px;
+    color: white;
+    margin-top: 160px;
+}
+.enquiry_bar{
+	position: absolute;
+	height: 50px;
+    background-color: #C10C2F;
+    width: 103px;
+    margin-top: 20px;
+}
+.enquiry_text{
+	color: white;
+	font-size: 25px;
+	padding: 8px;
+	font-family: 'OswaldRegular';
+}
+.enquiry_inline{
+	display: inline-flex;
+    margin-right: 137px;
+
+}
+.enquiry_image{
+	background: linear-gradient( rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.62) ), url('../images/enquiry.png');
+	height: 650px;
+	background-color: black;
+}
+
+input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+}
+textarea::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: white !important;  
 }
